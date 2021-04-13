@@ -4,201 +4,78 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
- #mainNav {
-   min-height: 56px;
-   background-color: #fff;
+ <div class="container mt-5">
+         <hr class="featurette-divider">
+         <h2 class="my-4">Featurette</h2>
+         <div class="row featurette">
+           <div class="col-md-7">
+             <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+           </div>
+           <div class="col-md-5">
+             <img class="featurette-image img-fluid mx-auto" src="https://source.unsplash.com/RCAhiGJsUUE/500x500" alt="Generic placeholder image">
+           </div>
+         </div>
+
+         <hr class="featurette-divider">
+
+         <div class="row featurette">
+           <div class="col-md-7 order-md-2">
+             <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+           </div>
+           <div class="col-md-5 order-md-1">
+             <img class="featurette-image img-fluid mx-auto" src="https://source.unsplash.com/RCAhiGJsUUE/500x500" alt="Generic placeholder image">
+           </div>
+         </div>
+
+         <hr class="featurette-divider">
+
+         <div class="row featurette">
+           <div class="col-md-7">
+             <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+           </div>
+           <div class="col-md-5">
+             <img class="featurette-image img-fluid mx-auto" src="https://source.unsplash.com/RCAhiGJsUUE/500x500" alt="Generic placeholder image">
+           </div>
+         </div>
+
+         <hr class="featurette-divider">
+       </div>
+         <!-- /END THE FEATURETTES -->
+ Find a suitable area in your HTML page to paste it (ask your tutor if you're unsure). Save the file.
+
+ Copy the CSS snippet:
+
+ /* Featurettes
+ ------------------------- */
+
+ .featurette-divider {
+   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
  }
 
- #mainNav .navbar-toggler {
-   font-size: 80%;
-   padding: 0.75rem;
-   color: #000000;
-   border: 1px solid #;
+ /* Thin out the marketing headings */
+ .featurette-heading {
+   font-weight: 300;
+   line-height: 1;
+   letter-spacing: -.05rem;
  }
 
- #mainNav .navbar-toggler:focus {
-   outline: none;
- }
-
- #mainNav .navbar-brand {
-   color: #d5a30de0;
-   font-weight: 700;
-   padding: .9rem 0;
- }
-
- #mainNav .navbar-nav .nav-item:hover {
-   color: fade(white, 80%);
-   outline: none;
-   background-color: transparent;
- }image
-
- #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
-   outline: none;
-   background-color: transparent;
- }
-
- @media (min-width: 992px) {
-   #mainNav {
-     padding-top: 0;
-     padding-bottom: 0;
-     border-bottom: none;
-     background-color: rgba(255 255 255 / 83%);
-     transition: background-color 0.3s ease-in-out;
-   }
-   #mainNav .navbar-brand {
-     padding: .5rem 0;
-     color: #030508(255, 255, 255, 0.5);
-   }
-   #mainNav .nav-link {
-     transition: none;
-     padding: 2rem 1.5rem;
-     color: #030508(255, 255, 255, 0.5);
-   }
-   #mainNav .nav-link:hover {
-     color: #c1c1c1(255, 255, 255, 0.75);
-   }
-   #mainNav .nav-link:active {
-     color: rgba;
-   }
-   #mainNav.navbar-shrink {
-     background-color: #f8f9fa;
-   }
-   #mainNav.navbar-shrink .navbar-brand {
-     color: #ffc107;
-   }
-   #mainNav.navbar-shrink .nav-link {
-     color: #292b2e;
-     padding: 1.5rem 1.5rem 1.25rem;
-     border-bottom: 0.25rem solid transparent;
-   #mainNav.navbar-shrink .nav-link:hover {
-   }
-     color: #000000;
-   }
-   #mainNav.navbar-shrink .nav-link:active {
-     color: #;
-   }
-   #mainNav.navbar-shrink .nav-link.active {
-     color: #030508;
-     outline: none;
-     border-bottom: 0.25rem solid #030508;
+ @media (min-width: 40em) {
+     .featurette-heading {
+     font-size: 50px;
    }
  }
 
- .masthead {
-   position: relative;
-   width: 100%;
-   height: auto;
-   min-height: 35rem;
-   padding: 15rem 0;
-   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("https://images.unsplash.com/photo-1513617332477-a365e97b52a7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3R1c3N5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-attachment: scroll;
-   background-size: cover;
- }
-
- .masthead h1 {
-   font-family: 'Work Sans', sans-serif;
-   font-size: 2.5rem;
-   line-height: 2.5rem;
-   letter-spacing: 0.8rem;
-   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-   -webkit-text-fill-color: transparent;
-   -webkit-background-clip: text;
- }
-
- .masthead h2 {
-   max-width: 20rem;
-   font-size: 1rem;
- }
-
- @media (min-width: 768px) {
-   .masthead h1 {
-     font-size: 4rem;
-     line-height: 4rem;
+ @media (min-width: 62em) {
+   .featurette-heading {
+     margin-top: 7rem;
    }
  }
 
- @media (min-width: 992px) {
-   .masthead {
-     height: 100vh;
-     padding: 0;
-   }
-   .masthead h1 {
-     font-size: 6.5rem;
-     line-height: 6.5rem;
-     letter-spacing: 0.8rem;
-   }
-   .masthead h2 {
-     max-width: 30rem;
-     font-size: 1.25rem;
-   }
- }
-
- .btn {
-   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-   padding: 1.25rem 2rem;
-   font-family: 'Work Sans', sans-serif;
-   font-size: 80%;
-   text-transform: uppercase;
-   letter-spacing: .15rem;
-   border: 0;
- }
-
- .btn-primary {
-   background-color: #d5a30de0;
- }
-
- .btn-primary:hover {
-   background-color: #d5a30de0;
- }
-
- .btn-primary:focus {
-   background-color: #d5a30de0;
-   color: white;
- }
-
- .btn-primary:active {
-   background-color: #d5a30de0 !important;
- }
-
- .about-section {
-   padding-top: 10rem;
-   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
- }
-
- .about-section p {
-   margin-bottom: 5rem;
- }
-
- .projects-section {
-   padding: 10rem 0;
- }
-
- .projects-section .featured-text {
-   padding: 2rem;
- }
-
- @media (min-width: 992px) {
-   .projects-section .featured-text {
-     padding: 0 0 0 2rem;
-     border-left: 0.5rem solid #c29612;
-   }
- }
-
- .projects-section .project-text {
-   padding: 3rem;
-   font-size: 90%;
- }
-
- @media (min-width: 992px) {
-   .projects-section .project-text {
-     padding: 5rem;
-   }
-   .projects-section .project-text hr {
-     border-color: #c29612;
-     border-width: .25rem;
-     width: 30%;
+ /* Featurettes End
+ ------------------------- */
    }
  }
 
