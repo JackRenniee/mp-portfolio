@@ -112,34 +112,27 @@
    font-size: 1rem;
  }
 
- /* Featurettes
-------------------------- */
+ @media (min-width: 768px) {
+   .masthead h1 {
+     font-size: 4rem;
+     line-height: 4rem;
+   }
+ }
 
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -.05rem;
-}
-
-@media (min-width: 40em) {
-    .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
-}
-
-/* Featurettes End
-------------------------- */
+ @media (min-width: 992px) {
+   .masthead {
+     height: 100vh;
+     padding: 0;
+   }
+   .masthead h1 {
+     font-size: 6.5rem;
+     line-height: 6.5rem;
+     letter-spacing: 0.8rem;
+   }
+   .masthead h2 {
+     max-width: 30rem;
+     font-size: 1.25rem;
+ 
    }
  }
 
