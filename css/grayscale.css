@@ -219,7 +219,7 @@
    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
    padding: 1.25rem 2rem;
    height: auto;
-   font-family: 'Noto Serif', serif;
+   font-family: 'Istok Web', sans-serif;
    font-size: 80%;
    text-transform: uppercase;
    letter-spacing: 0.15rem;
@@ -271,7 +271,7 @@
  }
 
  body {
-   font-family: 'Noto Serif', serif;
+   font-family: 'Istok Web', sans-serif;
    letter-spacing: 0.0625em;
  }
 
