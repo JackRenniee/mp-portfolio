@@ -197,13 +197,19 @@
      padding: 5rem;
    }
    .projects-section .project-text hr {
+     /* Full Width Image
+     ------------------------- */
+
      .bg-image-full {
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-   }
+       background: no-repeat center center scroll;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       background-size: cover;
+       -o-background-size: cover;
+     }
+
+     /* Full Width Image End
+     ------------------------- */
  }
 
  .signup-section {
